@@ -25,7 +25,7 @@
       rgba(31, 41, 55, 0.1),
       transparent 55%
     ),
-    url("/assets/value.jpg");
+    url("../assets/value.jpg");
   --about-image:
     linear-gradient(135deg, rgba(91, 70, 61, 0.16), rgba(91, 70, 61, 0.04)),
     radial-gradient(
@@ -33,7 +33,7 @@
       rgba(31, 41, 55, 0.08),
       transparent 60%
     ),
-    url("/assets/about.jpg");
+    url("../assets/about.jpg");
   --service-1-image:
     radial-gradient(
       900px 520px at 30% 20%,
@@ -557,7 +557,7 @@ p {
   background-image: var(--hero-image);
   background-size: cover;
   background-position: center;
-  background: url("/assets/hero-bg.jpg") center/cover no-repeat;
+  background: url("../assets/hero-bg.jpg") center/cover no-repeat;
   border-bottom: 1px solid var(--border);
 }
 
@@ -754,7 +754,7 @@ p {
   height: 26px;
   border-radius: 50%;
   border: 2px solid rgba(255, 255, 255, 0.75);
-  background-image: url("/assets/home1.jpg");
+  background-image: url("../assets/home1.jpg");
   background-size: cover;
   background-position: center;
   box-shadow: 0 10px 18px rgba(0, 0, 0, 0.18);
@@ -764,7 +764,7 @@ p {
   height: 26px;
   border-radius: 50%;
   border: 2px solid rgba(255, 255, 255, 0.75);
-  background-image: url("/assets/home2.jpg");
+  background-image: url("../assets/home2.jpg");
   background-size: cover;
   background-position: center;
   box-shadow: 0 10px 18px rgba(0, 0, 0, 0.18);
@@ -774,7 +774,7 @@ p {
   height: 26px;
   border-radius: 50%;
   border: 2px solid rgba(255, 255, 255, 0.75);
-  background-image: url("/assets/home3.jpg");
+  background-image: url("../assets/home3.jpg");
   background-size: cover;
   background-position: center;
   box-shadow: 0 10px 18px rgba(0, 0, 0, 0.18);
@@ -1200,19 +1200,19 @@ p {
 }
 
 .service-card__media--1 {
-  background-image: url("/assets/hartwood.jpeg");
+  background-image: url("../assets/hartwood.jpeg");
   background-size: cover;
   background-position: center;
 }
 
 .service-card__media--2 {
-  background-image: url("/assets/sand-finish.jpeg");
+  background-image: url("../assets/sand-finish.jpeg");
   background-size: cover;
   background-position: center;
 }
 
 .service-card__media--3 {
-  background-image: url("/assets/artisan-stairs.jpeg");
+  background-image: url("../assets/artisan-stairs.jpeg");
   background-size: cover;
   background-position: center;
 }
@@ -1261,7 +1261,7 @@ p {
 .trust__media {
   position: relative;
   border-radius: 26px;
-  background: url("/assets/why.jpg");
+  background: url("../assets/why.jpg");
   background-position: center;
   background-size: cover;
   border: 1px solid rgba(31, 41, 55, 0.1);
@@ -2236,7 +2236,7 @@ p {
   align-items: start;
   padding: 1rem;
   border-radius: 26px;
-  background: url("/assets/galery-bg.jpg");
+  background: url("../assets/galery-bg.jpg");
   background-size: cover;
   background-position: center;
   border: 1px solid rgba(31, 41, 55, 0.08);
@@ -2265,11 +2265,11 @@ p {
 }
 
 .project-feature__pane--before {
-  background: url("/assets/before.jpg") center / cover no-repeat;
+  background: url("../assets/before.jpg") center / cover no-repeat;
 }
 
 .project-feature__pane--after {
-  background-image: url("/assets/after.jpg");
+  background-image: url("../assets/after.jpg");
 }
 
 .project-feature__pane::after {
@@ -2370,27 +2370,27 @@ p {
 }
 
 .project-mini__media--1 {
-  background-image: url("/assets/hartwood.jpeg");
+  background-image: url("../assets/hartwood.jpeg");
 }
 
 .project-mini__media--2 {
-  background-image: url("/assets/sand-finish.jpeg");
+  background-image: url("../assets/sand-finish.jpeg");
 }
 
 .project-mini__media--3 {
-  background-image: url("/assets/granite.jpg");
+  background-image: url("../assets/granite.jpg");
 }
 
 .project-mini__media--4 {
-  background-image: url("/assets/artisan-stairs.jpeg");
+  background-image: url("../assets/artisan-stairs.jpeg");
 }
 
 .project-mini__media--5 {
-  background-image: url("/assets/vinil.png");
+  background-image: url("../assets/vinil.png");
 }
 
 .project-mini__media--6 {
-  background-image: url("/assets/carpet.jpeg");
+  background-image: url("../assets/carpet.jpeg");
 }
 
 .project-mini__body {
@@ -2500,31 +2500,31 @@ p {
 }
 
 .service-item--hardwood {
-  --service-bg: url("/assets/hartwood.jpeg");
+  --service-bg: url("../assets/hartwood.jpeg");
 }
 
 .service-item--sand {
-  --service-bg: url("/assets/sand-finish.jpeg");
+  --service-bg: url("../assets/sand-finish.jpeg");
 }
 
 .service-item--stairs {
-  --service-bg: url("/assets/artisan-stairs.jpeg");
+  --service-bg: url("../assets/artisan-stairs.jpeg");
 }
 
 .service-item--engineered {
-  --service-bg: url("/assets/flooring.jpeg");
+  --service-bg: url("../assets/flooring.jpeg");
 }
 
 .service-item--carpet {
-  --service-bg: url("/assets/carpet.jpeg");
+  --service-bg: url("../assets/carpet.jpeg");
 }
 
 .service-item--tile {
-  --service-bg: url("/assets/stone.jpg");
+  --service-bg: url("../assets/stone.jpg");
 }
 
 .service-item--countertops {
-  --service-bg: url("/assets/granite.jpg");
+  --service-bg: url("../assets/granite.jpg");
 }
 
 .service-item__title {
@@ -2547,7 +2547,7 @@ p {
 }
 .services-extras {
   position: relative;
-  background-image: url("/assets/bg-services.jpg");
+  background-image: url("../assets/bg-services.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
