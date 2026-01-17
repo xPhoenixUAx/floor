@@ -557,7 +557,7 @@ p {
   background-image: var(--hero-image);
   background-size: cover;
   background-position: center;
-  background: url("/assets/hero-bg.jpg") center/cover no-repeat;
+  background: url("./assets/hero-bg.jpg") center/cover no-repeat;
   border-bottom: 1px solid var(--border);
 }
 
