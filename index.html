@@ -51,8 +51,8 @@
               <div class="hero__trust" aria-label="Trusted by homeowners">
                 <div class="hero__avatars" aria-hidden="true">
                   <span class="avatar"></span>
-                  <span class="avatar"></span>
-                  <span class="avatar"></span>
+                  <span class="avatar2"></span>
+                  <span class="avatar3"></span>
                 </div>
                 <span class="hero__trust-text">Trusted by homeowners</span>
               </div>
@@ -64,7 +64,6 @@
       <section class="section value-prop" aria-labelledby="value-prop-title">
         <div class="container">
           <div class="value-prop__card">
-            <div class="value-prop__media" aria-hidden="true"></div>
             <div class="value-prop__content">
               <div class="value-prop__kicker">Premium Value Proposition</div>
               <h2 class="value-prop__headline" id="value-prop-title">
@@ -97,6 +96,7 @@
                 </div>
               </div>
             </div>
+            <div class="value-prop__media" aria-hidden="true"></div>
           </div>
         </div>
       </section>
@@ -367,7 +367,13 @@
             <div class="journey__cta-kicker">Ready to begin your project?</div>
             <a class="journey__cta-link" href="/process-projects.html">
               <span class="journey__cta-text">Start with Step 01</span>
-              <span class="journey__cta-icon" aria-hidden="true">→</span>
+              <span class="journey__cta-icon" aria-hidden="true">
+                <i
+                  class="icon icon--inverse"
+                  data-lucide="arrow-right"
+                  aria-hidden="true"
+                ></i>
+              </span>
             </a>
           </div>
         </div>
@@ -468,6 +474,10 @@
       </div>
     </footer>
 
+    <script
+      src="https://unpkg.com/lucide@0.469.0/dist/umd/lucide.min.js"
+      defer
+    ></script>
     <script src="/js/main.js" defer></script>
   </body>
 </html>
